@@ -7,3 +7,5 @@ def Ex1():
     print(m-1)
     print (u)
     return u
+    
+Ex1()
