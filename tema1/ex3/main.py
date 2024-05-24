@@ -50,7 +50,7 @@ def aprox():
         file.write("\n")
 
         for number in test_numbers:
-            file.write(f"Number {number}: T6 = {T.t_calcul[2](number)}, S6 = {T.t_calcul[2](number)/math.sqrt(1 + (t_calcul[2](number)) * (t_calcul[2](number)))}, C6 = {1/math.sqrt(1 + (t_calcul[2](number)) * (t_calcul[2](number)))}, T7 = {t_calcul[3](number)}, S7 = {t_calcul[3](number)/math.sqrt(1 + (t_calcul[3](number)) * (t_calcul[3](number)))}, C7 = {1/math.sqrt(1 + (t_calcul[3](number)) * (t_calcul[3](number)))} ")
+            file.write(f"Number {number}: T6 = {T.t_calcul[2](number)}, S6 = {T.t_calcul[2](number)/math.sqrt(1 + (T.t_calcul[2](number)) * (T.t_calcul[2](number)))}, C6 = {1/math.sqrt(1 + (T.t_calcul[2](number)) * (T.t_calcul[2](number)))}, T7 = {T.t_calcul[3](number)}, S7 = {T.t_calcul[3](number)/math.sqrt(1 + (T.t_calcul[3](number)) * (T.t_calcul[3](number)))}, C7 = {1/math.sqrt(1 + (T.t_calcul[3](number)) * (T.t_calcul[3](number)))} ")
             file.write("\n")
 
 if __name__ == '__main__':
